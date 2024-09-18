@@ -15,6 +15,14 @@
       "sms:displayName": "Conda"
     },
     {
+      "@id": "bts:C#",
+      "@type": "bts:ProgrammingLanguages",
+      "rdfs:comment": "C# comment",
+      "rdfs:label": "C# lbl",
+      "sms:required": "sms:false",
+      "sms:displayName": "C# display"
+    },
+    {
       "@id": "bts:ProgrammingLanguages",
       "@type": "rdfs:Class",
       "rdfs:comment": "Programming Languages comment",
@@ -23,13 +31,17 @@
       "sms:displayName": "Programming Languages"
     },
     {
-      "@id": "bts:C#",
-      "@type": "bts:ProgrammingLanguages",
-      "rdfs:comment": "C# comment",
-      "rdfs:label": "C# lbl",
+      "@id": "bts:Pythonscript",
+      "@type": "rdfs:class",
+      "rdfs:comment": "Python script with expected extension “.py”.",
+      "rdfs:label": "Pythonscript",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:autoradiography"
+        }
+      ],
       "sms:required": "sms:false",
-      "sms:displayName": "C# display 11",
-      "new:property":"some value"
+      "sms:displayName": "Python script"
     },
     {
       "@id": "bts:HarvardUniversity2",
@@ -55,19 +67,6 @@
         "rule1",
         "rule2"
       ]
-    },
-    {
-      "@id": "bts:Pythonscript",
-      "@type": "rdfs:class",
-      "rdfs:comment": "Python script with expected extension “.py”.",
-      "rdfs:label": "Pythonscript",
-      "rdfs:subClassOf": [
-        {
-          "@id": "bts:autoradiography"
-        }
-      ],
-      "sms:required": "sms:false",
-      "sms:displayName": "Python script"
     }
   ]
 }
