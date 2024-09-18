@@ -12,7 +12,10 @@
         }
       ],
       "sms:required": "sms:false",
-      "sms:displayName": "Conda"
+      "sms:displayName": "Conda",
+      "CoreModels_Space": [
+        "f8"
+      ]
     },
     {
       "@id": "bts:C#",
@@ -20,7 +23,10 @@
       "rdfs:comment": "C# comment",
       "rdfs:label": "C# lbl",
       "sms:required": "sms:false",
-      "sms:displayName": "C# display"
+      "sms:displayName": "C# display",
+      "CoreModels_Space": [
+        "f8"
+      ]
     },
     {
       "@id": "bts:ProgrammingLanguages",
@@ -28,31 +34,10 @@
       "rdfs:comment": "Programming Languages comment",
       "rdfs:label": "Programming Languages lbl",
       "sms:required": "sms:false",
-      "sms:displayName": "Programming Languages"
-    },
-    {
-      "@id": "bts:Pythonscript",
-      "@type": "rdfs:class",
-      "rdfs:comment": "Python script with expected extension “.py”.",
-      "rdfs:label": "Pythonscript",
-      "rdfs:subClassOf": [
-        {
-          "@id": "bts:autoradiography"
-        }
-      ],
-      "sms:required": "sms:false",
-      "sms:displayName": "Python script"
-    },
-    {
-      "@id": "bts:HarvardUniversity2",
-      "@type": "rdfs:class",
-      "rdfs:label": "HarvardUniversity",
-      "schema:isPartOf": {
-        "@id": "http://schema.biothings.io/"
-      },
-      "sms:required": "sms:true",
-      "sms:displayName": "Harvard University",
-      "sms:test": "Harvard University"
+      "sms:displayName": "Programming Languages",
+      "CoreModels_Space": [
+        "f8"
+      ]
     },
     {
       "@id": "bts:autoradiography",
@@ -66,6 +51,44 @@
       "sms:validationRules": [
         "rule1",
         "rule2"
+      ],
+      "CoreModels_Space": [
+        "f8"
+      ]
+    },
+    {
+      "@id": "bts:HarvardUniversity2",
+      "@type": "rdfs:class",
+      "rdfs:label": "HarvardUniversity",
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io/"
+      },
+      "sms:required": "sms:true",
+      "sms:displayName": "Harvard University",
+      "sms:test": "Harvard University",
+      "CoreModels_Space": [
+        "f8"
+      ]
+    },
+    {
+      "@id": "bts:Pythonscript",
+      "@type": "rdfs:class",
+      "rdfs:comment": "Python script with expected extension “.py”.",
+      "rdfs:label": "Pythonscript",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:autoradiography"
+        }
+      ],
+      "sms:required": "sms:false",
+      "sms:displayName": "Python script",
+      "sms:mappedTo": [
+        {
+          "@id": "bts:HarvardUniversity2"
+        }
+      ],
+      "CoreModels_Space": [
+        "f8"
       ]
     }
   ]
