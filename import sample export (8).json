@@ -28,7 +28,8 @@
       "rdfs:comment": "C# comment",
       "rdfs:label": "C# lbl",
       "sms:required": "sms:false",
-      "sms:displayName": "C# display"
+      "sms:displayName": "C# display 11",
+      "new:property":"some value",
     },
     {
       "@id": "bts:HarvardUniversity2",
