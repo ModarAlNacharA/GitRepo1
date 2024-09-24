@@ -48,22 +48,6 @@
       ]
     },
     {
-      "@id": "bts:Pythonscript",
-      "@type": "rdfs:class",
-      "rdfs:comment": "Python script with expected extension “.py”.",
-      "rdfs:label": "Pythonscript",
-      "rdfs:subClassOf": [
-        {
-          "@id": "bts:autoradiography"
-        }
-      ],
-      "sms:required": "sms:false",
-      "sms:displayName": "Python script",
-      "CoreModels_Space": [
-        "f8 dev to stage"
-      ]
-    },
-    {
       "@id": "bts:HarvardUniversity2",
       "@type": "rdfs:class",
       "rdfs:label": "HarvardUniversity",
@@ -84,6 +68,22 @@
       "rdfs:label": "Programming Languages lbl",
       "sms:required": "sms:false",
       "sms:displayName": "Programming Languages",
+      "CoreModels_Space": [
+        "f8 dev to stage"
+      ]
+    },
+    {
+      "@id": "bts:Pythonscript",
+      "@type": "rdfs:class",
+      "rdfs:comment": "Python script with expected extension “.py”.",
+      "rdfs:label": "Pythonscript",
+      "rdfs:subClassOf": [
+        {
+          "@id": "bts:autoradiography"
+        }
+      ],
+      "sms:required": "sms:false",
+      "sms:displayName": "Python script",
       "CoreModels_Space": [
         "f8 dev to stage"
       ]
