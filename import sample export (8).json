@@ -31,37 +31,6 @@
       ]
     },
     {
-      "@id": "bts:autoradiography",
-      "@type": "rdfs:class",
-      "rdfs:comment": "aaaA radioactivity detection technique using X- ray film to visualize molecules or fragments of molecules that have been radioactively labeled.",
-      "rdfs:label": "autoradiography",
-      "schema:isPartOf": {
-        "@id": "http://schema.biothings.io/"
-      },
-      "sms:displayName": "autoradiography",
-      "sms:validationRules": [
-        "rule1",
-        "rule2"
-      ],
-      "CoreModels_Space": [
-        "f8 dev to stage"
-      ]
-    },
-    {
-      "@id": "bts:HarvardUniversity2",
-      "@type": "rdfs:class",
-      "rdfs:label": "HarvardUniversity",
-      "schema:isPartOf": {
-        "@id": "http://schema.biothings.io/"
-      },
-      "sms:required": "sms:true",
-      "sms:displayName": "Harvard University",
-      "sms:test": "Harvard University",
-      "CoreModels_Space": [
-        "f8 dev to stage"
-      ]
-    },
-    {
       "@id": "bts:ProgrammingLanguages",
       "@type": "rdfs:Class",
       "rdfs:comment": "Programming Languages comment",
@@ -84,6 +53,37 @@
       ],
       "sms:required": "sms:false",
       "sms:displayName": "Python script",
+      "CoreModels_Space": [
+        "f8 dev to stage"
+      ]
+    },
+    {
+      "@id": "bts:HarvardUniversity2",
+      "@type": "rdfs:class",
+      "rdfs:label": "HarvardUniversity",
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io/"
+      },
+      "sms:required": "sms:true",
+      "sms:displayName": "Harvard University",
+      "sms:test": "Harvard University",
+      "CoreModels_Space": [
+        "f8 dev to stage"
+      ]
+    },
+    {
+      "@id": "bts:autoradiography",
+      "@type": "rdfs:class",
+      "rdfs:comment": "aaaA radioactivity detection technique using X- ray film to visualize molecules or fragments of molecules that have been radioactively labeled.",
+      "rdfs:label": "autoradiography",
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io/"
+      },
+      "sms:displayName": "autoradiography",
+      "sms:validationRules": [
+        "rule1",
+        "rule2"
+      ],
       "CoreModels_Space": [
         "f8 dev to stage"
       ]
