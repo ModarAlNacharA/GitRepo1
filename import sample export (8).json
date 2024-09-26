@@ -1,6 +1,19 @@
 {
-  "@context": {},
+  "@context": {
+    "schema": "http://schema.org/"
+  },
   "@graph": [
+    {
+      "@id": "bts:C#",
+      "@type": "bts:ProgrammingLanguages",
+      "rdfs:comment": "C# comment",
+      "rdfs:label": "C# lbl",
+      "sms:required": "sms:false",
+      "sms:displayName": "C# display",
+      "CoreModels_Space": [
+        "gitRepo1 f8"
+      ]
+    },
     {
       "@id": "bts:Conda",
       "@type": "rdf:property",
@@ -14,29 +27,7 @@
       "sms:required": "sms:false",
       "sms:displayName": "Conda",
       "CoreModels_Space": [
-        "f8"
-      ]
-    },
-    {
-      "@id": "bts:C#",
-      "@type": "bts:ProgrammingLanguages",
-      "rdfs:comment": "C# comment",
-      "rdfs:label": "C# lbl",
-      "sms:required": "sms:false",
-      "sms:displayName": "C# display",
-      "CoreModels_Space": [
-        "f8"
-      ]
-    },
-    {
-      "@id": "bts:ProgrammingLanguages",
-      "@type": "rdfs:Class",
-      "rdfs:comment": "Programming Languages comment",
-      "rdfs:label": "Programming Languages lbl",
-      "sms:required": "sms:false",
-      "sms:displayName": "Programming Languages",
-      "CoreModels_Space": [
-        "f8"
+        "gitRepo1 f8"
       ]
     },
     {
@@ -53,21 +44,7 @@
         "rule2"
       ],
       "CoreModels_Space": [
-        "f8"
-      ]
-    },
-    {
-      "@id": "bts:HarvardUniversity2",
-      "@type": "rdfs:class",
-      "rdfs:label": "HarvardUniversity",
-      "schema:isPartOf": {
-        "@id": "http://schema.biothings.io/"
-      },
-      "sms:required": "sms:true",
-      "sms:displayName": "Harvard University",
-      "sms:test": "Harvard University",
-      "CoreModels_Space": [
-        "f8"
+        "gitRepo1 f8"
       ]
     },
     {
@@ -88,7 +65,32 @@
         }
       ],
       "CoreModels_Space": [
-        "f8"
+        "gitRepo1 f8"
+      ]
+    },
+    {
+      "@id": "bts:HarvardUniversity2",
+      "@type": "rdfs:class",
+      "rdfs:label": "HarvardUniversity",
+      "schema:isPartOf": {
+        "@id": "http://schema.biothings.io/"
+      },
+      "sms:required": "sms:true",
+      "sms:displayName": "Harvard University",
+      "sms:test": "Harvard University",
+      "CoreModels_Space": [
+        "gitRepo1 f8"
+      ]
+    },
+    {
+      "@id": "bts:ProgrammingLanguages",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "Programming Languages comment",
+      "rdfs:label": "Programming Languages lbl",
+      "sms:required": "sms:false",
+      "sms:displayName": "Programming Languages",
+      "CoreModels_Space": [
+        "gitRepo1 f8"
       ]
     }
   ]
