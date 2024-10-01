@@ -20,9 +20,6 @@
       "sms:validationRules": [
         "rule1",
         "rule2"
-      ],
-      "CoreModels_Space": [
-        "shared f8"
       ]
     },
     {
@@ -34,10 +31,7 @@
       },
       "sms:required": "sms:true",
       "sms:displayName": "Harvard University",
-      "sms:test": "Harvard University",
-      "CoreModels_Space": [
-        "shared f8"
-      ]
+      "sms:test": "Harvard University"
     },
     {
       "@id": "bts:Pythonscript",
@@ -50,10 +44,7 @@
         }
       ],
       "sms:required": "sms:false",
-      "sms:displayName": "Python script",
-      "CoreModels_Space": [
-        "shared f8"
-      ]
+      "sms:displayName": "Python script"
     },
     {
       "@id": "bts:Conda",
@@ -66,10 +57,7 @@
         }
       ],
       "sms:required": "sms:false",
-      "sms:displayName": "Conda",
-      "CoreModels_Space": [
-        "shared f8"
-      ]
+      "sms:displayName": "Conda"
     },
     {
       "@id": "bts:ProgrammingLanguages",
@@ -77,10 +65,7 @@
       "rdfs:comment": "Programming Languages comment",
       "rdfs:label": "Programming Languages lbl",
       "sms:required": "sms:false",
-      "sms:displayName": "Programming Languages",
-      "CoreModels_Space": [
-        "shared f8"
-      ]
+      "sms:displayName": "Programming Languages"
     },
     {
       "@id": "bts:C#",
@@ -88,10 +73,7 @@
       "rdfs:comment": "C# comment",
       "rdfs:label": "C# lbl",
       "sms:required": "sms:false",
-      "sms:displayName": "C# display",
-      "CoreModels_Space": [
-        "shared f8"
-      ]
+      "sms:displayName": "C# display"
     }
   ]
 }
