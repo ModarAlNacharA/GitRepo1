@@ -22,7 +22,7 @@
         "rule2"
       ],
       "CoreModels_Space": [
-        "f8 dev to stage"
+        "shared f8"
       ]
     },
     {
@@ -36,7 +36,7 @@
       "sms:displayName": "Harvard University",
       "sms:test": "Harvard University",
       "CoreModels_Space": [
-        "f8 dev to stage"
+        "shared f8"
       ]
     },
     {
@@ -52,7 +52,7 @@
       "sms:required": "sms:false",
       "sms:displayName": "Python script",
       "CoreModels_Space": [
-        "f8 dev to stage"
+        "shared f8"
       ]
     },
     {
@@ -68,7 +68,7 @@
       "sms:required": "sms:false",
       "sms:displayName": "Conda",
       "CoreModels_Space": [
-        "f8 dev to stage"
+        "shared f8"
       ]
     },
     {
@@ -79,7 +79,7 @@
       "sms:required": "sms:false",
       "sms:displayName": "Programming Languages",
       "CoreModels_Space": [
-        "f8 dev to stage"
+        "shared f8"
       ]
     },
     {
@@ -90,7 +90,7 @@
       "sms:required": "sms:false",
       "sms:displayName": "C# display",
       "CoreModels_Space": [
-        "f8 dev to stage"
+        "shared f8"
       ]
     }
   ]
